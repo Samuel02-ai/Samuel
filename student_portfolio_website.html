@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Rathod | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+
+    header {
+      background: #0a0a0a;
+      color: #fff;
+      padding: 1rem 2rem;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    header nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    header nav a:hover { color: #00adb5; }
+
+    section { padding: 90px 20px; }
+
+    .hero {
+      height: 100vh;
+      background: linear-gradient(to right, #000, #1f1f1f);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00adb5;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 { font-size: 2.5rem; }
+    .hero p { color: #ccc; }
+
+    .container { max-width: 1000px; margin: auto; }
+
+    h2 { margin-bottom: 20px; color: #222; }
+
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      margin: 10px 0;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover { transform: scale(1.02); }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a0a0a;
+      color: white;
+    }
+
+    .contact a {
+      display: block;
+      margin: 10px 0;
+      color: #00adb5;
+      text-decoration: none;
+    }
+
+    @media(max-width:768px){
+      .hero h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Samuel</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <img src="samuel.jpg.jpeg" alt="Samuel">
+  <h1>Samuel Rathod</h1>
+  <p>B.Tech CSE Student | AI Enthusiast</p>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      My name is Samuel Rathod, currently pursuing B.Tech in Computer Science Engineering (1st Year) at MIT Vishwaprayag University.
+      I am passionate about technology, AI, and creativity. I enjoy music and playing musical instruments like guitar and drums.
+    </p>
+    <p>
+      I strongly believe that when I set a goal, I push myself beyond limits to achieve it. I am dedicated, focused, and always ready to learn new things.
+    </p>
+    <p><b>PRN:</b> SCFU125036</p>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="container">
+    <h2>Achievements & Certificates</h2>
+    <div class="gallery">
+      <img src="cert-chemistry.jpg.jpeg" alt="Certificate">
+      <img src="cert-netacad.jpg.jpeg" alt="Certificate">
+      <img src="cert-matlab.jpg.jpeg" alt="Certificate">
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container contact">
+    <h2>Contact Me</h2>
+    <a href="mailto:samuel@example.com">Email: samuel@example.com</a>
+    <a href="https://instagram.com/Samuel_1009" target="_blank">Instagram: Samuel_1009</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Samuel Rathod | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
